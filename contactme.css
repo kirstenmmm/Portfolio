@@ -1,0 +1,64 @@
+* {
+    background-color: rgb(252, 231, 231);
+}
+
+h1 {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: lightcoral;
+}
+
+.one {
+    width: 45%;
+    border: .3em solid rgb(188, 95, 95);
+    padding: .4em;
+    margin: auto;
+    text-align: center;
+    height: 12em;
+    border-radius: .5em;
+    align-items: center;
+    display: block;
+}
+
+h4 {
+    font-family: "DM Serif Text", serif;
+    font-style: normal;
+    color: lightcoral;
+}
+
+p {
+    color: rgb(255, 125, 125);
+}
+
+
+header {
+    text-align: center;
+    color: rgb(203, 125, 125);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vh;
+}
+
+.header>h1 {
+    margin: 0 auto;
+}
+
+@media (max-width: 400px) {
+    .one {
+        border: solid rgb(252, 231, 231);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 6em;
+    }
+}
+
+a {
+    color: rgb(203, 125, 125);
+    text-decoration: none;
+    font-size: 1.5em;
+}
